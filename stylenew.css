@@ -159,6 +159,9 @@ h3.form-title {
     background: transparent none repeat scroll 0 0;
     color: white;
 }
+.payment-option{
+    background:transparent;
+}
 .field input.text, .field textarea, .field textarea#notes, .field select {
     border-radius: 0 10px;
     resize: none;
