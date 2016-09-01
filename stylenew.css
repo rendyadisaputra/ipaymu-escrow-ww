@@ -156,7 +156,7 @@ h3.form-title {
     border: 1px solid #313131;
 }
 .payment-form {
-    background: #222222 none repeat scroll 0 0;
+    background: transparent none repeat scroll 0 0;
     color: white;
 }
 .field input.text, .field textarea, .field textarea#notes, .field select {
