@@ -1,56 +1,45 @@
-body{
-    background: transparent;
 
+body {
+    background: transparent none repeat scroll 0 0;
 }
 .transaction thead, .transaction tbody {
-    display: none
+    display: none;
 }
-
-
 .smart_header {
-    background: #f6f5fa none repeat scroll 0 0;
+    background: transparent none repeat scroll 0 0;
+    display: none;
     height: 82px;
 }
 #transaction-detail > strong {
-    display: none
+    display: none;
 }
-
 #member-form {
-    display: none
+    display: none;
 }
-
 #nonmember-form {
     float: none;
     margin: 0 auto;
     width: 96%;
 }
-
 #non-member fieldset > p.field:nth-child(1), #non-member fieldset > p.field:nth-child(2), #non-member fieldset > p.field:nth-child(3) {
-    display: none
+    display: none;
 }
-
 .logo img {
-    height: 45px
+    height: 45px;
 }
-
 .transaction thead, .transaction tbody {
     display: none;
 }
-
 #transaction-detail > strong {
     display: none;
 }
-
 #member-form {
     display: none;
 }
-
 .nonmember-form {
     display: none;
 }
-
-.smart
-.smart_header {
+.smart .smart_header {
     background: #f6f5fa none repeat scroll 0 0;
     border-bottom: 15px solid #efc51b;
     height: 45px;
@@ -69,6 +58,7 @@ body{
     text-align: center;
 }
 h1.logo {
+    display: none;
     position: absolute;
     right: 5px;
     top: 5px;
@@ -78,9 +68,8 @@ h1.logo img {
     height: auto;
     width: 100%;
 }
-
 #header {
-    border-bottom: 10px solid #fcce08;
+    border-bottom: 0px solid #fcce08;
     margin-bottom: 0;
     padding: 0;
 }
@@ -159,8 +148,8 @@ h3.form-title {
     background: transparent none repeat scroll 0 0;
     color: white;
 }
-.payment-option{
-    background:transparent;
+.payment-option {
+    background: transparent none repeat scroll 0 0;
 }
 .field input.text, .field textarea, .field textarea#notes, .field select {
     border-radius: 0 10px;
@@ -199,4 +188,3 @@ input[value="Kirim"] {
     margin: 0 2%;
     width: 96%;
 }
-/*added*/
