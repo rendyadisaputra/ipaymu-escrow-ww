@@ -18,7 +18,7 @@ $(document).ready(function () {
     if($("#non-member #phone").val()=="") $("#non-member #phone").val($("#q_").attr("phone"));
     $('#non-member>p:first-child').html("Silahkan isikan data bank Anda, untuk auto-double-checking di internal kami: ");
     $('body').prepend('<link rel="stylesheet" type="text/css" href="https://rawgit.com/rendyadisaputra/ipaymu-escrow-ww/master/stylemember.css">');
-    $('body').prepend('<style type="text/css">.transaction thead,.transaction tbody{display:none}#transaction-detail> strong{display:none}#member-form{display:none}#nonmember-form{}#non-member fieldset > p.field:nth-child(1),#non-member fieldset > p.field:nth-child(2),#non-member fieldset > p.field:nth-child(3){display:none}.logo img{height:45px}</style>');
+    $('body').prepend('<style type="text/css">.transaction thead,.transaction tbody{display:none}#transaction-detail> strong{display:none}#nonmember-form{}#non-member fieldset > p.field:nth-child(1),#non-member fieldset > p.field:nth-child(2),#non-member fieldset > p.field:nth-child(3){display:none}.logo img{height:45px}</style>');
     $("#header .container").prepend("<div class='smart_header'><div class='img'></div></div>")
     $("#nonmember-form .payment-option h3.form-title").eq(0).click();
 
