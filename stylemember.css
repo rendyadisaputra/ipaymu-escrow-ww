@@ -13,9 +13,7 @@ body {
 #transaction-detail > strong {
     display: none;
 }
-#member-form {
-    display: none;
-}
+
 #nonmember-form {
     float: none;
     margin: 0 auto;
@@ -33,9 +31,7 @@ body {
 #transaction-detail > strong {
     display: none;
 }
-#member-form {
-    display: none;
-}
+
 .nonmember-form {
     display: none;
 }
