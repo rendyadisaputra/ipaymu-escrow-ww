@@ -1,0 +1,190 @@
+
+body {
+    background: transparent none repeat scroll 0 0;
+}
+.transaction thead, .transaction tbody {
+    display: none;
+}
+.smart_header {
+    background: transparent none repeat scroll 0 0;
+    display: none;
+    height: 82px;
+}
+#transaction-detail > strong {
+    display: none;
+}
+#member-form {
+    display: none;
+}
+#nonmember-form {
+    float: none;
+    margin: 0 auto;
+    width: 96%;
+}
+#non-member fieldset > p.field:nth-child(1), #non-member fieldset > p.field:nth-child(2), #non-member fieldset > p.field:nth-child(3) {
+    display: none;
+}
+.logo img {
+    height: 45px;
+}
+.transaction thead, .transaction tbody {
+    display: none;
+}
+#transaction-detail > strong {
+    display: none;
+}
+#member-form {
+    display: none;
+}
+.nonmember-form {
+    display: none;
+}
+.smart .smart_header {
+    background: #f6f5fa none repeat scroll 0 0;
+    border-bottom: 15px solid #efc51b;
+    height: 45px;
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-top: -15px;
+    overflow: hidden;
+    padding: 15px;
+}
+.smart_header img {
+    height: 100%;
+    width: auto;
+}
+.smart_header .img {
+    height: 100%;
+    text-align: center;
+}
+h1.logo {
+    display: none;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    width: 70px;
+}
+h1.logo img {
+    height: auto;
+    width: 100%;
+}
+#header {
+    border-bottom: 0px solid #fcce08;
+    margin-bottom: 0;
+    padding: 0;
+}
+#merchant-detail {
+    background: transparent none repeat scroll 0 0;
+}
+#merchant-detail .container .sixteen.columns {
+    color: white;
+    margin: 0 2%;
+    text-align: right;
+    width: 96%;
+}
+#merchant-detail .container .sixteen.columns h3 {
+    color: white;
+    text-align: right;
+}
+#merchant-detail .container .sixteen.columns .merchant-status {
+    color: white;
+    display: block;
+    font-size: 12px;
+    font-weight: normal;
+    text-align: right;
+}
+#main {
+    background: transparent none repeat scroll 0 0;
+    padding-bottom: 10px;
+    padding-top: 0;
+}
+#main #transaction-detail .transaction {
+    background: #222222 none repeat scroll 0 0;
+    border: 1px solid #ffff62;
+    border-radius: 15px;
+    width: 100%;
+}
+#main #transaction-detail .transaction tr.total {
+    background: transparent none repeat scroll 0 0;
+    color: white;
+    font-size: 18px;
+    text-shadow: 0 0 0 transparent;
+}
+#main #transaction-detail .transaction tr.total .alignright {
+    color: #fcce08;
+}
+#payment-options {
+    background: transparent none repeat scroll 0 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+#footer {
+    background: #222 none repeat scroll 0 0;
+    color: white;
+    margin-top: 0;
+    padding-top: 5px;
+}
+input[type="button"], button, .button {
+    background: #387ef5 none repeat scroll 0 0;
+    border: 1px solid #2d65c4;
+    text-shadow: 0 0 0 white;
+}
+input[type="button"] {
+    background: white none repeat scroll 0 0;
+    border: 1px solid #8c8c8c;
+    color: #777777;
+}
+h3.form-title {
+    background: #fcce08 none repeat scroll 0 0;
+    border-bottom: medium none;
+    color: #232323;
+    text-align: center;
+}
+.payment-option {
+    border: 1px solid #313131;
+}
+.payment-form {
+    background: transparent none repeat scroll 0 0;
+    color: white;
+}
+.payment-option {
+    background: transparent none repeat scroll 0 0;
+}
+.field input.text, .field textarea, .field textarea#notes, .field select {
+    border-radius: 0 10px;
+    resize: none;
+    width: 100%;
+}
+#non-member .field, #member-form .field {
+    width: 100%;
+}
+#non-member fieldset {
+    display: block;
+    width: 100%;
+}
+#turingpay {
+    height: 28px;
+    width: 40%;
+}
+.captcha img {
+    border: medium none;
+}
+input[value="Kirim"] {
+    width: 50%;
+}
+.field textarea {
+    height: 150px;
+}
+.field label {
+    margin-left: 11px;
+    padding-bottom: 2px;
+}
+.container {
+    width: 100%;
+}
+#transaction-detail.sixteen.columns {
+    display: block;
+    margin: 0 2%;
+    width: 96%;
+}
